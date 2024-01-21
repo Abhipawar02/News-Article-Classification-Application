@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/355137800219523200/a4f67ee9438d4be6b087e1e1c38ab617/artifacts
+end_time: 1705864047273
+entry_point_name: ''
+experiment_id: '355137800219523200'
+lifecycle_stage: active
+run_id: a4f67ee9438d4be6b087e1e1c38ab617
+run_name: model-name
+run_uuid: a4f67ee9438d4be6b087e1e1c38ab617
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1705864029171
+status: 3
+tags: []
+user_id: Abhi

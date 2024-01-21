@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/355137800219523200/63376f3e8a574908903a308ea70748d2/artifacts
+end_time: 1705863226147
+entry_point_name: ''
+experiment_id: '355137800219523200'
+lifecycle_stage: active
+run_id: 63376f3e8a574908903a308ea70748d2
+run_name: judicious-hawk-472
+run_uuid: 63376f3e8a574908903a308ea70748d2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1705863226070
+status: 4
+tags: []
+user_id: Abhi

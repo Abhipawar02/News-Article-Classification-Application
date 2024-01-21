@@ -6,7 +6,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 # Load the  model
 lr_model = joblib.load('dump_model/model.pkl', mmap_mode=None)
 
-# Load the CountVectorizer used during training
+# Load the CountVectorizer used during 
 try:
     cv = CountVectorizer(decode_error="replace", vocabulary=joblib.load('dump_model/countvectorizer_vocab.joblib'))
 except Exception as e:

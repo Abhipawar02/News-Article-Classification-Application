@@ -5,7 +5,7 @@ A deployed streamlit Application to classify news articles, into following four 
     3. Sports
     4. World
 
-application linnk - ec2.com
+application linnk - http://ec2-54-90-142-109.compute-1.amazonaws.com
 
 ## Getting Started
 

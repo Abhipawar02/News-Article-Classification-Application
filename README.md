@@ -83,7 +83,7 @@ In order to prepare the dataset for analysis and modeling, the following data pr
     - F1-score
 
 - Below are the results for each model:
-    - ![Result Image](relative/path/to/your/image.jpg)
+    - ![Result Image](templates/model_evaluation.png)
 
 ## streamlit application 
 - The best-performing model has been chosen based on evaluation metrics, and it is loaded into the app.py file for making predictions using streamlit library.

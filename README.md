@@ -103,6 +103,6 @@ In order to prepare the dataset for analysis and modeling, the following data pr
 - To be add
 
 ## Ready to Share !
-- http://ec2-54-90-142-109.compute-1.amazonaws.com)http://ec2-54-90-142-109.compute-1.amazonaws.com
+- http://ec2-54-90-142-109.compute-1.amazonaws.com
 
 

@@ -85,7 +85,7 @@ In order to prepare the dataset for analysis and modeling, the following data pr
 - Below are the results for each model:
     - ![Result Image](templates/model_evaluation.png)
 
-## streamlit application 
+## Streamlit application 
 - The best-performing model has been chosen based on evaluation metrics, and it is loaded into the app.py file for making predictions using streamlit library.
 
 ## DockerFile
@@ -93,8 +93,11 @@ In order to prepare the dataset for analysis and modeling, the following data pr
 - For a Streamlit Application
     - ENTRYPOINT ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
 
-## AWS Setups And Github Actions CI/CD Pipelines
-- 
+## AWS Setups
+- To be add
+
+## Github Actions CI/CD Pipelines
+- To be add
 
 ## Issues and Solutions
 - To be add

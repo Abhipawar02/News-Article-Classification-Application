@@ -60,22 +60,41 @@ In order to prepare the dataset for analysis and modeling, the following data pr
    - Performed the train-test split to divide the dataset into training and testing sets for model training and evaluation.
 
 ## Hypertuning with sklearn Pipelines and MLFLOW integration
-- To be add
+- We configured a pipeline using sklearn's `Pipeline` class, incorporating the `OneVsRestClassifier` for multi-class classification. The following models were included in the hyperparameter tuning process:
 
-## Model Evaluation, Selection And predict.py file
-- To be add
+    - Logistic Regression
+    - Random Forest
+    - Multinomial Naive Bayes
+    - Support Vector Machine (SVM)
+    - Decision Tree
+    - K-Nearest Neighbors (KNN)
+    - Gaussian Naive Bayes
+
+- For each model, we defined hyperparameter grids to search for the optimal combination of hyperparameters. These grids were used in conjunction with sklearn's `GridSearchCV` to perform cross-validated hyperparameter tuning.
+
+- We utilized MLFLOW to log and track the hyperparameter tuning experiments. The local MLFLOW tracking URI was set to `http://127.0.0.1:5000` for easy monitoring of the experiments.
+
+## Model Evaluation, Analysis And Selection
+- After running the hyperparameter tuning process, the following models and their corresponding metrics were logged:
+
+    - Test Accuracy
+    - Precision
+    - Recall
+    - F1-score
+
+- Below are the results for each model:
+    - ![Result Image](relative/path/to/your/image.jpg)
 
 ## streamlit application 
-- To be add
+- The best-performing model has been chosen based on evaluation metrics, and it is loaded into the app.py file for making predictions using streamlit library.
 
 ## DockerFile
-- To be add
+- Created an DockerFile to create The image of the application based on Python 3.8-slim-buster and includes the necessary dependencies to run the application.
+- For a Streamlit Application
+    - ENTRYPOINT ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
 
-## AWS Setups  
-- To be add
-
-## Github Actions CI/CD Pipelines
-- To be add
+## AWS Setups And Github Actions CI/CD Pipelines
+- 
 
 ## Issues and Solutions
 - To be add
@@ -84,6 +103,6 @@ In order to prepare the dataset for analysis and modeling, the following data pr
 - To be add
 
 ## Ready to Share !
-- To be add
+- http://ec2-54-90-142-109.compute-1.amazonaws.com)http://ec2-54-90-142-109.compute-1.amazonaws.com
 
 

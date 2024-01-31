@@ -27,10 +27,37 @@ application linnk - http://ec2-54-90-142-109.compute-1.amazonaws.com
 ### Check https://github.com/Abhipawar02/news-data-scrapping-and-section-classification Repository.
 
 ## Dataset
-- The preprocessed dataset is added to dataset directory, which include : dataset information -
+
+The raw dataset is included in the `dataset` directory, consisting of 193 entries with the following format:
+
+- Article Title
+- Article Body
+- Section Value (Categorized into 'Entertainment', 'Business', 'World', 'Sport')
 
 ## Data Preprocessing
-- To be add
+In order to prepare the dataset for analysis and modeling, the following data preprocessing steps were undertaken:
+1. **Handling Null and Duplicated Values:**
+   - Removed null values and duplicates, resulting in 128 non-null and unique entries.
+
+2. **Visualizing Data Balance:**
+   - Visualized the dataset to ensure a balanced distribution of entries within the 'Section_Value' categories ('Entertainment', 'Business', 'World', 'Sport').
+
+3. **Creating 'Full Article' Column:**
+   - Added a new column named 'Full Article' by combining the 'Article Title' and 'Article Body'.
+
+4. **Text Cleaning with NLTK:**
+   - Utilized the Natural Language Toolkit (NLTK) to perform the following text cleaning steps on the 'Full Article' column:
+     - Removal of HTML tags.
+     - Handling special characters.
+     - Removal of stopwords.
+     - Conversion of text to lowercase.
+     - Lemmatization of words.
+
+5. **Vectorization using Sklearn.CountVectorizer:**
+   - Applied Sklearn's CountVectorizer to convert the 'Full Article' column into a numerical format suitable for machine learning models.
+
+6. **Train-Test Split:**
+   - Performed the train-test split to divide the dataset into training and testing sets for model training and evaluation.
 
 ## Hypertuning with sklearn Pipelines and MLFLOW integration
 - To be add
